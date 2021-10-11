@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
+		CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7B27142C5E00B57B26 /* check_mark.swift */; };
+		CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7D271430CE00B57B26 /* bmi.swift */; };
+		CF54AF802714517D00B57B26 /* WeekendUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7F2714517D00B57B26 /* WeekendUpdater.swift */; };
+		CF54AF822714759A00B57B26 /* quizWithLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF812714759A00B57B26 /* quizWithLoops.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		CF54AF7B27142C5E00B57B26 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
+		CF54AF7D271430CE00B57B26 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
+		CF54AF7F2714517D00B57B26 /* WeekendUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekendUpdater.swift; sourceTree = "<group>"; };
+		CF54AF812714759A00B57B26 /* quizWithLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizWithLoops.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,30 @@
 		CE02B52A27140BEB00861F3D /* swift_demo_T1000 */ = {
 			isa = PBXGroup;
 			children = (
-				CE02B52B27140BEB00861F3D /* main.swift */,
+				CF54AF7927142C2700B57B26 /* Week1 */,
 				CE02B53427140DC100861F3D /* utils.swift */,
 			);
 			path = swift_demo_T1000;
+			sourceTree = "<group>";
+		};
+		CF54AF7927142C2700B57B26 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				CF54AF7A27142C3600B57B26 /* Day1 */,
+				CE02B52B27140BEB00861F3D /* main.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		CF54AF7A27142C3600B57B26 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				CF54AF7B27142C5E00B57B26 /* check_mark.swift */,
+				CF54AF7D271430CE00B57B26 /* bmi.swift */,
+				CF54AF7F2714517D00B57B26 /* WeekendUpdater.swift */,
+				CF54AF812714759A00B57B26 /* quizWithLoops.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
+				CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */,
+				CF54AF802714517D00B57B26 /* WeekendUpdater.swift in Sources */,
+				CF54AF822714759A00B57B26 /* quizWithLoops.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
