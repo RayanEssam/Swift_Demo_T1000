@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
+		CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */; };
 		CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7B27142C5E00B57B26 /* check_mark.swift */; };
 		CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7D271430CE00B57B26 /* bmi.swift */; };
 		CF54AF802714517D00B57B26 /* WeekendUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7F2714517D00B57B26 /* WeekendUpdater.swift */; };
 		CF54AF822714759A00B57B26 /* quizWithLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF812714759A00B57B26 /* quizWithLoops.swift */; };
+		CF982B3E27156FDA0079DFEF /* reverseNumberUsingWhileLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B3D27156FDA0079DFEF /* reverseNumberUsingWhileLoop.swift */; };
+		CF982B40271579AA0079DFEF /* tryAgain_quiz_Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B3F271579AA0079DFEF /* tryAgain_quiz_Loop.swift */; };
+		CF982B4227157DE90079DFEF /* guessANumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B4127157DE90079DFEF /* guessANumberGame.swift */; };
+		CF982B442715B6F50079DFEF /* mobileNumberAuthintecator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B432715B6F50079DFEF /* mobileNumberAuthintecator.swift */; };
+		CF982B462716AF5F0079DFEF /* addNumbersInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B452716AF5F0079DFEF /* addNumbersInArray.swift */; };
+		CF982B492716B4520079DFEF /* ManipulateArraysWithLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B482716B4520079DFEF /* ManipulateArraysWithLoops.swift */; };
+		CF982B4B2716C1BB0079DFEF /* 2dArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B4A2716C1BB0079DFEF /* 2dArray.swift */; };
+		CF982B4D2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF982B4C2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +40,19 @@
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddNumberCounterUsingWhileLoop.swift; sourceTree = "<group>"; };
 		CF54AF7B27142C5E00B57B26 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
 		CF54AF7D271430CE00B57B26 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
 		CF54AF7F2714517D00B57B26 /* WeekendUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekendUpdater.swift; sourceTree = "<group>"; };
 		CF54AF812714759A00B57B26 /* quizWithLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizWithLoops.swift; sourceTree = "<group>"; };
+		CF982B3D27156FDA0079DFEF /* reverseNumberUsingWhileLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseNumberUsingWhileLoop.swift; sourceTree = "<group>"; };
+		CF982B3F271579AA0079DFEF /* tryAgain_quiz_Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryAgain_quiz_Loop.swift; sourceTree = "<group>"; };
+		CF982B4127157DE90079DFEF /* guessANumberGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessANumberGame.swift; sourceTree = "<group>"; };
+		CF982B432715B6F50079DFEF /* mobileNumberAuthintecator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileNumberAuthintecator.swift; sourceTree = "<group>"; };
+		CF982B452716AF5F0079DFEF /* addNumbersInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNumbersInArray.swift; sourceTree = "<group>"; };
+		CF982B482716B4520079DFEF /* ManipulateArraysWithLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateArraysWithLoops.swift; sourceTree = "<group>"; };
+		CF982B4A2716C1BB0079DFEF /* 2dArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2dArray.swift; sourceTree = "<group>"; };
+		CF982B4C2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesTotalMarksUsingNestedLoop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,16 +91,31 @@
 			path = swift_demo_T1000;
 			sourceTree = "<group>";
 		};
+		CF4311BB27155CFF0033FC82 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */,
+				CF982B3D27156FDA0079DFEF /* reverseNumberUsingWhileLoop.swift */,
+				CF982B3F271579AA0079DFEF /* tryAgain_quiz_Loop.swift */,
+				CF982B4127157DE90079DFEF /* guessANumberGame.swift */,
+				CF982B432715B6F50079DFEF /* mobileNumberAuthintecator.swift */,
+				CF982B452716AF5F0079DFEF /* addNumbersInArray.swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
 		CF54AF7927142C2700B57B26 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
-				CF54AF7A27142C3600B57B26 /* Day1 */,
+				CF982B472716AF670079DFEF /* Day4 */,
+				CF4311BB27155CFF0033FC82 /* Day3 */,
+				CF54AF7A27142C3600B57B26 /* Day2 */,
 				CE02B52B27140BEB00861F3D /* main.swift */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
 		};
-		CF54AF7A27142C3600B57B26 /* Day1 */ = {
+		CF54AF7A27142C3600B57B26 /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
 				CF54AF7B27142C5E00B57B26 /* check_mark.swift */,
@@ -90,7 +123,17 @@
 				CF54AF7F2714517D00B57B26 /* WeekendUpdater.swift */,
 				CF54AF812714759A00B57B26 /* quizWithLoops.swift */,
 			);
-			path = Day1;
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		CF982B472716AF670079DFEF /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				CF982B482716B4520079DFEF /* ManipulateArraysWithLoops.swift */,
+				CF982B4A2716C1BB0079DFEF /* 2dArray.swift */,
+				CF982B4C2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift */,
+			);
+			path = Day4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +195,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */,
+				CF982B4B2716C1BB0079DFEF /* 2dArray.swift in Sources */,
+				CF982B462716AF5F0079DFEF /* addNumbersInArray.swift in Sources */,
+				CF982B4D2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift in Sources */,
+				CF982B442715B6F50079DFEF /* mobileNumberAuthintecator.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
 				CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */,
 				CF54AF802714517D00B57B26 /* WeekendUpdater.swift in Sources */,
 				CF54AF822714759A00B57B26 /* quizWithLoops.swift in Sources */,
+				CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */,
+				CF982B4227157DE90079DFEF /* guessANumberGame.swift in Sources */,
+				CF982B492716B4520079DFEF /* ManipulateArraysWithLoops.swift in Sources */,
+				CF982B40271579AA0079DFEF /* tryAgain_quiz_Loop.swift in Sources */,
+				CF982B3E27156FDA0079DFEF /* reverseNumberUsingWhileLoop.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
