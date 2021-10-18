@@ -15,6 +15,7 @@ class bankAccount {
     static var annualRate : Double = 0.04
     
     private(set) var balance : Double {
+        
         set(newBalance) {
          _balance = newBalance
         }

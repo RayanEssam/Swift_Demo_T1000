@@ -38,7 +38,12 @@
 		CF28AAA2271C0C7600EF9E83 /* testClassSalaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA1271C0C7600EF9E83 /* testClassSalaries.swift */; };
 		CF28AAA5271C38F900EF9E83 /* ClassBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA4271C38F900EF9E83 /* ClassBankAccount.swift */; };
 		CF28AAA7271C4DBB00EF9E83 /* testClassBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA6271C4DBB00EF9E83 /* testClassBankAccount.swift */; };
-		CF28AAA9271C588800EF9E83 /* Inhertance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA8271C588800EF9E83 /* Inhertance.swift */; };
+		CF28AAA9271C588800EF9E83 /* EmpInhertance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA8271C588800EF9E83 /* EmpInhertance.swift */; };
+		CF28AAAB271D467E00EF9E83 /* TestInheratenceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAAA271D467E00EF9E83 /* TestInheratenceClass.swift */; };
+		CF28AAAF271D4E9400EF9E83 /* ClassCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAAE271D4E9400EF9E83 /* ClassCourse.swift */; };
+		CF28AAB1271D5A2E00EF9E83 /* testClassCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB0271D5A2E00EF9E83 /* testClassCourse.swift */; };
+		CF28AAB3271D7EBA00EF9E83 /* ClassInhertanceAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB2271D7EBA00EF9E83 /* ClassInhertanceAccount.swift */; };
+		CF28AAB5271D8D7800EF9E83 /* testClassInhertanceAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB4271D8D7800EF9E83 /* testClassInhertanceAccount.swift */; };
 		CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */; };
 		CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7B27142C5E00B57B26 /* check_mark.swift */; };
 		CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7D271430CE00B57B26 /* bmi.swift */; };
@@ -99,7 +104,12 @@
 		CF28AAA1271C0C7600EF9E83 /* testClassSalaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassSalaries.swift; sourceTree = "<group>"; };
 		CF28AAA4271C38F900EF9E83 /* ClassBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassBankAccount.swift; sourceTree = "<group>"; };
 		CF28AAA6271C4DBB00EF9E83 /* testClassBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassBankAccount.swift; sourceTree = "<group>"; };
-		CF28AAA8271C588800EF9E83 /* Inhertance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inhertance.swift; sourceTree = "<group>"; };
+		CF28AAA8271C588800EF9E83 /* EmpInhertance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpInhertance.swift; sourceTree = "<group>"; };
+		CF28AAAA271D467E00EF9E83 /* TestInheratenceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInheratenceClass.swift; sourceTree = "<group>"; };
+		CF28AAAE271D4E9400EF9E83 /* ClassCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCourse.swift; sourceTree = "<group>"; };
+		CF28AAB0271D5A2E00EF9E83 /* testClassCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassCourse.swift; sourceTree = "<group>"; };
+		CF28AAB2271D7EBA00EF9E83 /* ClassInhertanceAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInhertanceAccount.swift; sourceTree = "<group>"; };
+		CF28AAB4271D8D7800EF9E83 /* testClassInhertanceAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassInhertanceAccount.swift; sourceTree = "<group>"; };
 		CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddNumberCounterUsingWhileLoop.swift; sourceTree = "<group>"; };
 		CF54AF7B27142C5E00B57B26 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
 		CF54AF7D271430CE00B57B26 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
@@ -203,6 +213,7 @@
 		CF28AA9D271BEFB500EF9E83 /* Week2 */ = {
 			isa = PBXGroup;
 			children = (
+				CF28AAAD271D46B200EF9E83 /* Day2 */,
 				CF28AA9E271BEFC600EF9E83 /* Day1 */,
 			);
 			path = Week2;
@@ -215,9 +226,21 @@
 				CF28AAA1271C0C7600EF9E83 /* testClassSalaries.swift */,
 				CF28AAA4271C38F900EF9E83 /* ClassBankAccount.swift */,
 				CF28AAA6271C4DBB00EF9E83 /* testClassBankAccount.swift */,
-				CF28AAA8271C588800EF9E83 /* Inhertance.swift */,
+				CF28AAA8271C588800EF9E83 /* EmpInhertance.swift */,
+				CF28AAAA271D467E00EF9E83 /* TestInheratenceClass.swift */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		CF28AAAD271D46B200EF9E83 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28AAAE271D4E9400EF9E83 /* ClassCourse.swift */,
+				CF28AAB0271D5A2E00EF9E83 /* testClassCourse.swift */,
+				CF28AAB2271D7EBA00EF9E83 /* ClassInhertanceAccount.swift */,
+				CF28AAB4271D8D7800EF9E83 /* testClassInhertanceAccount.swift */,
+			);
+			path = Day2;
 			sourceTree = "<group>";
 		};
 		CF4311BB27155CFF0033FC82 /* Day3 */ = {
@@ -331,6 +354,7 @@
 				CF28AAA2271C0C7600EF9E83 /* testClassSalaries.swift in Sources */,
 				CF982B462716AF5F0079DFEF /* addNumbersInArray.swift in Sources */,
 				CF982B4D2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift in Sources */,
+				CF28AAAB271D467E00EF9E83 /* TestInheratenceClass.swift in Sources */,
 				CF28AA98271AD50900EF9E83 /* exponentX_UNACCEPTED.swift in Sources */,
 				CF28AAA5271C38F900EF9E83 /* ClassBankAccount.swift in Sources */,
 				CF28AA382718165C00EF9E83 /* myFunctions.swift in Sources */,
@@ -339,10 +363,13 @@
 				CF28AA81271AC0CB00EF9E83 /* largestSmallestNumberInArray.swift in Sources */,
 				CF28AA91271AD1A000EF9E83 /* printNumberInRange.swift in Sources */,
 				CF28AAA0271C0A4900EF9E83 /* ClassSalaries.swift in Sources */,
+				CF28AAB3271D7EBA00EF9E83 /* ClassInhertanceAccount.swift in Sources */,
 				CF28AA75271ABA3400EF9E83 /* typeOfInput.swift in Sources */,
+				CF28AAB5271D8D7800EF9E83 /* testClassInhertanceAccount.swift in Sources */,
 				CF28AA7D271ABEAD00EF9E83 /* lessOrMoreThanZero.swift in Sources */,
 				CF28AA3E27184FF800EF9E83 /* isPrimUsingFunc.swift in Sources */,
 				CF28AA83271AC11200EF9E83 /* numberOfElemntInArray.swift in Sources */,
+				CF28AAAF271D4E9400EF9E83 /* ClassCourse.swift in Sources */,
 				CF28AA3C27184C1300EF9E83 /* palindrome.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
 				CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */,
@@ -361,11 +388,12 @@
 				CF28AA362718013200EF9E83 /* gradesUsingArrayAndDectionary.swift in Sources */,
 				CF28AA87271AC25600EF9E83 /* oddEven.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
+				CF28AAB1271D5A2E00EF9E83 /* testClassCourse.swift in Sources */,
 				CF28AA89271AC2AE00EF9E83 /* deleteElemntInArray.swift in Sources */,
 				CF28AA8F271ACD9F00EF9E83 /* matchArray.swift in Sources */,
 				CF28AA7B271ABE7700EF9E83 /* divReminder.swift in Sources */,
 				CF28AA3A2718392A00EF9E83 /* bmiUsingFunction.swift in Sources */,
-				CF28AAA9271C588800EF9E83 /* Inhertance.swift in Sources */,
+				CF28AAA9271C588800EF9E83 /* EmpInhertance.swift in Sources */,
 				CF28AA77271ABD4500EF9E83 /* substractTwoNumbers.swift in Sources */,
 				CF28AA8B271AC33500EF9E83 /* factorial.swift in Sources */,
 				CF28AA96271AD30500EF9E83 /* exponentCubeUNACCEPTED.swift in Sources */,
