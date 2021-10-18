@@ -2,24 +2,13 @@
 
 import Foundation
 
-func countChar(_ sentence: String, _ ch: String) -> Int {
-var counter = 0
-//    var firstIndex = sentence.firstIndex(of: <#String.Element#>)
+let  manager = Manager("Ahmed", 23, 40000)
 
-    for (index , item) in sentence.enumerated(){
-        
-//        print(item)
-        if Character(extendedGraphemeClusterLiteral: item) == Character(ch) {
-            counter+=1
-        }
-        
-    }
+manager.takeDecsion()
+manager.manage()
+
+let teacher = Instructor("Rayan", 91, 990000)
+teacher.takeDecsion()
+teacher.teach()
 
 
-    return counter
-    
-    
-    
-}
-
-print(countChar("Heleeeeelo", "e"))

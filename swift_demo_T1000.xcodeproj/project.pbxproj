@@ -34,6 +34,11 @@
 		CF28AA98271AD50900EF9E83 /* exponentX_UNACCEPTED.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AA97271AD50900EF9E83 /* exponentX_UNACCEPTED.swift */; };
 		CF28AA9A271AD68E00EF9E83 /* countDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AA99271AD68E00EF9E83 /* countDown.swift */; };
 		CF28AA9C271AD8FC00EF9E83 /* countChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AA9B271AD8FC00EF9E83 /* countChar.swift */; };
+		CF28AAA0271C0A4900EF9E83 /* ClassSalaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AA9F271C0A4900EF9E83 /* ClassSalaries.swift */; };
+		CF28AAA2271C0C7600EF9E83 /* testClassSalaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA1271C0C7600EF9E83 /* testClassSalaries.swift */; };
+		CF28AAA5271C38F900EF9E83 /* ClassBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA4271C38F900EF9E83 /* ClassBankAccount.swift */; };
+		CF28AAA7271C4DBB00EF9E83 /* testClassBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA6271C4DBB00EF9E83 /* testClassBankAccount.swift */; };
+		CF28AAA9271C588800EF9E83 /* Inhertance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAA8271C588800EF9E83 /* Inhertance.swift */; };
 		CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */; };
 		CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7B27142C5E00B57B26 /* check_mark.swift */; };
 		CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7D271430CE00B57B26 /* bmi.swift */; };
@@ -90,6 +95,11 @@
 		CF28AA97271AD50900EF9E83 /* exponentX_UNACCEPTED.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exponentX_UNACCEPTED.swift; sourceTree = "<group>"; };
 		CF28AA99271AD68E00EF9E83 /* countDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countDown.swift; sourceTree = "<group>"; };
 		CF28AA9B271AD8FC00EF9E83 /* countChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countChar.swift; sourceTree = "<group>"; };
+		CF28AA9F271C0A4900EF9E83 /* ClassSalaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSalaries.swift; sourceTree = "<group>"; };
+		CF28AAA1271C0C7600EF9E83 /* testClassSalaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassSalaries.swift; sourceTree = "<group>"; };
+		CF28AAA4271C38F900EF9E83 /* ClassBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassBankAccount.swift; sourceTree = "<group>"; };
+		CF28AAA6271C4DBB00EF9E83 /* testClassBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassBankAccount.swift; sourceTree = "<group>"; };
+		CF28AAA8271C588800EF9E83 /* Inhertance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inhertance.swift; sourceTree = "<group>"; };
 		CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddNumberCounterUsingWhileLoop.swift; sourceTree = "<group>"; };
 		CF54AF7B27142C5E00B57B26 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
 		CF54AF7D271430CE00B57B26 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
@@ -135,6 +145,7 @@
 		CE02B52A27140BEB00861F3D /* swift_demo_T1000 */ = {
 			isa = PBXGroup;
 			children = (
+				CF28AA9D271BEFB500EF9E83 /* Week2 */,
 				CF28AA72271AB9E600EF9E83 /* CoderHub challenges */,
 				CF54AF7927142C2700B57B26 /* Week1 */,
 				CE02B53427140DC100861F3D /* utils.swift */,
@@ -187,6 +198,26 @@
 				CF28AA9B271AD8FC00EF9E83 /* countChar.swift */,
 			);
 			path = "Easy Challenges";
+			sourceTree = "<group>";
+		};
+		CF28AA9D271BEFB500EF9E83 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28AA9E271BEFC600EF9E83 /* Day1 */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		CF28AA9E271BEFC600EF9E83 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28AA9F271C0A4900EF9E83 /* ClassSalaries.swift */,
+				CF28AAA1271C0C7600EF9E83 /* testClassSalaries.swift */,
+				CF28AAA4271C38F900EF9E83 /* ClassBankAccount.swift */,
+				CF28AAA6271C4DBB00EF9E83 /* testClassBankAccount.swift */,
+				CF28AAA8271C588800EF9E83 /* Inhertance.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 		CF4311BB27155CFF0033FC82 /* Day3 */ = {
@@ -297,14 +328,17 @@
 				CF28AA9C271AD8FC00EF9E83 /* countChar.swift in Sources */,
 				CF28AA79271ABE0600EF9E83 /* contactNames.swift in Sources */,
 				CF982B4B2716C1BB0079DFEF /* 2dArray.swift in Sources */,
+				CF28AAA2271C0C7600EF9E83 /* testClassSalaries.swift in Sources */,
 				CF982B462716AF5F0079DFEF /* addNumbersInArray.swift in Sources */,
 				CF982B4D2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift in Sources */,
 				CF28AA98271AD50900EF9E83 /* exponentX_UNACCEPTED.swift in Sources */,
+				CF28AAA5271C38F900EF9E83 /* ClassBankAccount.swift in Sources */,
 				CF28AA382718165C00EF9E83 /* myFunctions.swift in Sources */,
 				CF982B442715B6F50079DFEF /* mobileNumberAuthintecator.swift in Sources */,
 				CF28AA8D271ACA0200EF9E83 /* wordRepeat.swift in Sources */,
 				CF28AA81271AC0CB00EF9E83 /* largestSmallestNumberInArray.swift in Sources */,
 				CF28AA91271AD1A000EF9E83 /* printNumberInRange.swift in Sources */,
+				CF28AAA0271C0A4900EF9E83 /* ClassSalaries.swift in Sources */,
 				CF28AA75271ABA3400EF9E83 /* typeOfInput.swift in Sources */,
 				CF28AA7D271ABEAD00EF9E83 /* lessOrMoreThanZero.swift in Sources */,
 				CF28AA3E27184FF800EF9E83 /* isPrimUsingFunc.swift in Sources */,
@@ -318,6 +352,7 @@
 				CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */,
 				CF28AA85271AC1D300EF9E83 /* cumulativeAddition.swift in Sources */,
 				CF982B4227157DE90079DFEF /* guessANumberGame.swift in Sources */,
+				CF28AAA7271C4DBB00EF9E83 /* testClassBankAccount.swift in Sources */,
 				CF28AA9A271AD68E00EF9E83 /* countDown.swift in Sources */,
 				CF982B492716B4520079DFEF /* ManipulateArraysWithLoops.swift in Sources */,
 				CF28AA7F271AC04C00EF9E83 /* isSameName.swift in Sources */,
@@ -330,6 +365,7 @@
 				CF28AA8F271ACD9F00EF9E83 /* matchArray.swift in Sources */,
 				CF28AA7B271ABE7700EF9E83 /* divReminder.swift in Sources */,
 				CF28AA3A2718392A00EF9E83 /* bmiUsingFunction.swift in Sources */,
+				CF28AAA9271C588800EF9E83 /* Inhertance.swift in Sources */,
 				CF28AA77271ABD4500EF9E83 /* substractTwoNumbers.swift in Sources */,
 				CF28AA8B271AC33500EF9E83 /* factorial.swift in Sources */,
 				CF28AA96271AD30500EF9E83 /* exponentCubeUNACCEPTED.swift in Sources */,
