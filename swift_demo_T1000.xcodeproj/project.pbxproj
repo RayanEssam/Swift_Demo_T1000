@@ -44,6 +44,15 @@
 		CF28AAB1271D5A2E00EF9E83 /* testClassCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB0271D5A2E00EF9E83 /* testClassCourse.swift */; };
 		CF28AAB3271D7EBA00EF9E83 /* ClassInhertanceAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB2271D7EBA00EF9E83 /* ClassInhertanceAccount.swift */; };
 		CF28AAB5271D8D7800EF9E83 /* testClassInhertanceAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB4271D8D7800EF9E83 /* testClassInhertanceAccount.swift */; };
+		CF28AAB8271EAC3600EF9E83 /* ExtensionDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB7271EAC3600EF9E83 /* ExtensionDouble.swift */; };
+		CF28AABA271ED38B00EF9E83 /* testExtension .swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAB9271ED38B00EF9E83 /* testExtension .swift */; };
+		CF28AABC271ED3F500EF9E83 /* Classairplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AABB271ED3F500EF9E83 /* Classairplane.swift */; };
+		CF28AABE271FE68600EF9E83 /* ClassExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AABD271FE68600EF9E83 /* ClassExceptions.swift */; };
+		CF28AAC0271FE6B700EF9E83 /* testClassException .swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AABF271FE6B700EF9E83 /* testClassException .swift */; };
+		CF28AAC4271FFD0F00EF9E83 /* VideoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAC3271FFD0F00EF9E83 /* VideoClass.swift */; };
+		CF28AAC6271FFD2400EF9E83 /* PlaylistClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAC5271FFD2400EF9E83 /* PlaylistClass.swift */; };
+		CF28AAC8271FFD3300EF9E83 /* ChannelsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAC7271FFD3300EF9E83 /* ChannelsClass.swift */; };
+		CF28AACA271FFD4600EF9E83 /* CategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28AAC9271FFD4600EF9E83 /* CategoryEnum.swift */; };
 		CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */; };
 		CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7B27142C5E00B57B26 /* check_mark.swift */; };
 		CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54AF7D271430CE00B57B26 /* bmi.swift */; };
@@ -110,6 +119,15 @@
 		CF28AAB0271D5A2E00EF9E83 /* testClassCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassCourse.swift; sourceTree = "<group>"; };
 		CF28AAB2271D7EBA00EF9E83 /* ClassInhertanceAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInhertanceAccount.swift; sourceTree = "<group>"; };
 		CF28AAB4271D8D7800EF9E83 /* testClassInhertanceAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClassInhertanceAccount.swift; sourceTree = "<group>"; };
+		CF28AAB7271EAC3600EF9E83 /* ExtensionDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDouble.swift; sourceTree = "<group>"; };
+		CF28AAB9271ED38B00EF9E83 /* testExtension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "testExtension .swift"; sourceTree = "<group>"; };
+		CF28AABB271ED3F500EF9E83 /* Classairplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classairplane.swift; sourceTree = "<group>"; };
+		CF28AABD271FE68600EF9E83 /* ClassExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExceptions.swift; sourceTree = "<group>"; };
+		CF28AABF271FE6B700EF9E83 /* testClassException .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "testClassException .swift"; sourceTree = "<group>"; };
+		CF28AAC3271FFD0F00EF9E83 /* VideoClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClass.swift; sourceTree = "<group>"; };
+		CF28AAC5271FFD2400EF9E83 /* PlaylistClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistClass.swift; sourceTree = "<group>"; };
+		CF28AAC7271FFD3300EF9E83 /* ChannelsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsClass.swift; sourceTree = "<group>"; };
+		CF28AAC9271FFD4600EF9E83 /* CategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEnum.swift; sourceTree = "<group>"; };
 		CF4311BC27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oddNumberCounterUsingWhileLoop.swift; sourceTree = "<group>"; };
 		CF54AF7B27142C5E00B57B26 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
 		CF54AF7D271430CE00B57B26 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
@@ -213,6 +231,8 @@
 		CF28AA9D271BEFB500EF9E83 /* Week2 */ = {
 			isa = PBXGroup;
 			children = (
+				CF28AAC1271FE71A00EF9E83 /* Day4 */,
+				CF28AAB6271E938C00EF9E83 /* Day3 */,
 				CF28AAAD271D46B200EF9E83 /* Day2 */,
 				CF28AA9E271BEFC600EF9E83 /* Day1 */,
 			);
@@ -241,6 +261,37 @@
 				CF28AAB4271D8D7800EF9E83 /* testClassInhertanceAccount.swift */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		CF28AAB6271E938C00EF9E83 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28AAB7271EAC3600EF9E83 /* ExtensionDouble.swift */,
+				CF28AAB9271ED38B00EF9E83 /* testExtension .swift */,
+				CF28AABB271ED3F500EF9E83 /* Classairplane.swift */,
+				CF28AABD271FE68600EF9E83 /* ClassExceptions.swift */,
+				CF28AABF271FE6B700EF9E83 /* testClassException .swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		CF28AAC1271FE71A00EF9E83 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28AAC2271FFCEE00EF9E83 /* LargeExercise */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
+		CF28AAC2271FFCEE00EF9E83 /* LargeExercise */ = {
+			isa = PBXGroup;
+			children = (
+				CF28AAC3271FFD0F00EF9E83 /* VideoClass.swift */,
+				CF28AAC5271FFD2400EF9E83 /* PlaylistClass.swift */,
+				CF28AAC7271FFD3300EF9E83 /* ChannelsClass.swift */,
+				CF28AAC9271FFD4600EF9E83 /* CategoryEnum.swift */,
+			);
+			path = LargeExercise;
 			sourceTree = "<group>";
 		};
 		CF4311BB27155CFF0033FC82 /* Day3 */ = {
@@ -348,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF54AF7E271430CE00B57B26 /* bmi.swift in Sources */,
+				CF28AAC0271FE6B700EF9E83 /* testClassException .swift in Sources */,
 				CF28AA9C271AD8FC00EF9E83 /* countChar.swift in Sources */,
 				CF28AA79271ABE0600EF9E83 /* contactNames.swift in Sources */,
 				CF982B4B2716C1BB0079DFEF /* 2dArray.swift in Sources */,
@@ -356,20 +408,25 @@
 				CF982B4D2716C8D10079DFEF /* coursesTotalMarksUsingNestedLoop.swift in Sources */,
 				CF28AAAB271D467E00EF9E83 /* TestInheratenceClass.swift in Sources */,
 				CF28AA98271AD50900EF9E83 /* exponentX_UNACCEPTED.swift in Sources */,
+				CF28AABC271ED3F500EF9E83 /* Classairplane.swift in Sources */,
+				CF28AAB8271EAC3600EF9E83 /* ExtensionDouble.swift in Sources */,
 				CF28AAA5271C38F900EF9E83 /* ClassBankAccount.swift in Sources */,
 				CF28AA382718165C00EF9E83 /* myFunctions.swift in Sources */,
 				CF982B442715B6F50079DFEF /* mobileNumberAuthintecator.swift in Sources */,
 				CF28AA8D271ACA0200EF9E83 /* wordRepeat.swift in Sources */,
 				CF28AA81271AC0CB00EF9E83 /* largestSmallestNumberInArray.swift in Sources */,
+				CF28AABE271FE68600EF9E83 /* ClassExceptions.swift in Sources */,
 				CF28AA91271AD1A000EF9E83 /* printNumberInRange.swift in Sources */,
 				CF28AAA0271C0A4900EF9E83 /* ClassSalaries.swift in Sources */,
 				CF28AAB3271D7EBA00EF9E83 /* ClassInhertanceAccount.swift in Sources */,
 				CF28AA75271ABA3400EF9E83 /* typeOfInput.swift in Sources */,
 				CF28AAB5271D8D7800EF9E83 /* testClassInhertanceAccount.swift in Sources */,
+				CF28AABA271ED38B00EF9E83 /* testExtension .swift in Sources */,
 				CF28AA7D271ABEAD00EF9E83 /* lessOrMoreThanZero.swift in Sources */,
 				CF28AA3E27184FF800EF9E83 /* isPrimUsingFunc.swift in Sources */,
 				CF28AA83271AC11200EF9E83 /* numberOfElemntInArray.swift in Sources */,
 				CF28AAAF271D4E9400EF9E83 /* ClassCourse.swift in Sources */,
+				CF28AAC6271FFD2400EF9E83 /* PlaylistClass.swift in Sources */,
 				CF28AA3C27184C1300EF9E83 /* palindrome.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
 				CF54AF7C27142C5E00B57B26 /* check_mark.swift in Sources */,
@@ -379,6 +436,7 @@
 				CF4311BD27156EDB0033FC82 /* oddNumberCounterUsingWhileLoop.swift in Sources */,
 				CF28AA85271AC1D300EF9E83 /* cumulativeAddition.swift in Sources */,
 				CF982B4227157DE90079DFEF /* guessANumberGame.swift in Sources */,
+				CF28AAC8271FFD3300EF9E83 /* ChannelsClass.swift in Sources */,
 				CF28AAA7271C4DBB00EF9E83 /* testClassBankAccount.swift in Sources */,
 				CF28AA9A271AD68E00EF9E83 /* countDown.swift in Sources */,
 				CF982B492716B4520079DFEF /* ManipulateArraysWithLoops.swift in Sources */,
@@ -390,12 +448,14 @@
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 				CF28AAB1271D5A2E00EF9E83 /* testClassCourse.swift in Sources */,
 				CF28AA89271AC2AE00EF9E83 /* deleteElemntInArray.swift in Sources */,
+				CF28AAC4271FFD0F00EF9E83 /* VideoClass.swift in Sources */,
 				CF28AA8F271ACD9F00EF9E83 /* matchArray.swift in Sources */,
 				CF28AA7B271ABE7700EF9E83 /* divReminder.swift in Sources */,
 				CF28AA3A2718392A00EF9E83 /* bmiUsingFunction.swift in Sources */,
 				CF28AAA9271C588800EF9E83 /* EmpInhertance.swift in Sources */,
 				CF28AA77271ABD4500EF9E83 /* substractTwoNumbers.swift in Sources */,
 				CF28AA8B271AC33500EF9E83 /* factorial.swift in Sources */,
+				CF28AACA271FFD4600EF9E83 /* CategoryEnum.swift in Sources */,
 				CF28AA96271AD30500EF9E83 /* exponentCubeUNACCEPTED.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

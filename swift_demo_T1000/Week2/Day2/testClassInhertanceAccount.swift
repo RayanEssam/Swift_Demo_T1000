@@ -21,3 +21,16 @@ import Foundation
 //print(myCheck.balance)
 //myCheck.withdraw(amount: 1200)
 //print(myCheck.balance)
+
+
+
+
+//=== operator overload===\\
+
+//var myAccount1 = SuperAccount("rayan taj", 2000)
+//myAccount1 +=  500
+//print(myAccount1.balance)
+//
+//myAccount1 -=  500
+//print(myAccount1.balance)
+

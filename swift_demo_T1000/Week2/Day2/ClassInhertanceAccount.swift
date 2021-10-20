@@ -46,6 +46,16 @@ class SuperAccount {
   func withdraw(amount: Double) {
     balance -= amount
   }
+    
+    
+// Operator Overload
+    public static func  += (account : SuperAccount , amount: Double) {
+        account.deposit(amount: amount)
+    }
+    public static func  -= (account : SuperAccount , amount: Double) {
+        account.withdraw(amount: amount)
+    }
+    
 }
 
 
